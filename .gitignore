@@ -1,0 +1,13 @@
+# idea
+.idea
+*.iml
+out/
+gen/
+
+# mvn
+**/target/
+**/.mvn/
+**/mvnw*
+
+#macos
+.DS_Store
