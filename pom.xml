@@ -18,6 +18,7 @@
 
     <modules>
         <module>web-simple</module>
+        <module>web-log</module>
         <module>web-dubbo</module>
     </modules>
 
