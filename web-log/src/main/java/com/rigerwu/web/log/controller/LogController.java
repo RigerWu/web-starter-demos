@@ -14,7 +14,7 @@ public class LogController {
 
     @GetMapping("/log")
     public String hello() {
-        String s = "log print test";
+        String s = "log print test: " + System.currentTimeMillis();
         log.debug(s);
         log.info(s);
         log.error(s);
