@@ -21,6 +21,7 @@
 |   web-simple   |   [simple](https://www.rigerwu.com/2021/01/10/web-simple-springboot/)   |  SpringBoot简单示例 创建 运行 发布|
 |   web-log   |   [log](https://www.rigerwu.com/2021/01/13/web-log-logback/)  |   SpringBoot日志打印详解   |
 |   web-log   |   [elk](https://www.rigerwu.com/2021/01/17/web-log-elk/)   |   使用ELK记录微服务日志   |
+|   web-mybatis   |   [mybatis](https://www.rigerwu.com/2021/01/23/web-mybatis/)   |   Mybatis使用入门   |
 
 ### 持续更新...
 
