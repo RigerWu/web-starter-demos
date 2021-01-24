@@ -3,6 +3,3 @@ spring:
     name: dubbo-consumer
 server:
   port: 8010
-dubbo:
-  registry:
-    address: zookeeper://127.0.0.1:2181

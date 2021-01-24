@@ -19,6 +19,7 @@
     <modules>
         <module>web-simple</module>
         <module>web-log</module>
+        <module>web-mybatis</module>
         <module>web-dubbo</module>
     </modules>
 
