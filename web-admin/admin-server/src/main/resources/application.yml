@@ -1,0 +1,26 @@
+server:
+  port: 8000
+spring:
+  security:
+    user:
+      name: riger
+      password: riger
+  mail:
+    host: smtp.qiye.163.com
+    port: 465
+    username: yourmail@163.com
+    password: password
+    protocol: smtp
+    test-connection: true
+    default-encoding: UTF-8
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.ssl.enable: true
+
+  boot:
+    admin:
+      notify:
+        mail:
+          # from 163邮箱必须要配置，否则报503，别的邮箱没测
+          from: yourmail@163.com
+          to: mail1@163.com,mail2@163.com

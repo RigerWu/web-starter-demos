@@ -22,6 +22,7 @@
         <module>web-mybatis</module>
         <module>web-rabbitmq</module>
         <module>web-dubbo</module>
+        <module>web-admin</module>
     </modules>
 
     <name>web-starter-demos</name>
