@@ -1,0 +1,28 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: web-rabbitmq
+  rabbitmq:
+    addresses: localhost
+    port: 5672 # 默认值可不填
+    username: guest # 默认值可不填
+    password: guest # 默认值可不填
+    virtual-host: / # 默认值可不填
+
+    ####################################################################
+    # publisher-confirms: true # 这个设置已经过时,使用publisher-confirm-type
+    # 开启消息确认可选有 none corelated simple, 消息发送到broker后回调
+    publisher-confirm-type: correlated
+    # 消息投递队列失败后回调 returnscallback 要配合mandatory参数使用
+    publisher-returns: true
+    template:
+      # false 消息如果发送不到合适的队列会被丢弃
+      # true 消息如果发送不到合适的队列会回调 returnscallback
+      mandatory: true
+    ####################################################################
+    listener:
+      simple:
+        # 开启消费端消息手动ack则设置为 manual
+        acknowledge-mode: auto
+#        acknowledge-mode: manual

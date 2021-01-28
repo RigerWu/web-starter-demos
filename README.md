@@ -22,10 +22,10 @@
 |   web-log   |   [log](https://www.rigerwu.com/2021/01/13/web-log-logback/)  |   SpringBoot日志打印详解   |
 |   web-log   |   [elk](https://www.rigerwu.com/2021/01/17/web-log-elk/)   |   使用ELK记录微服务日志   |
 |   web-mybatis   |   [mybatis](https://www.rigerwu.com/2021/01/23/web-mybatis/)   |   Mybatis使用入门   |
+|   web-rabbitmq   |   [rabbitmq](https://www.rigerwu.com/2021/01/27/web-rabbitmq/)   |   SpringBoot中使用RabbitMQ详解   |
 
 ### 持续更新...
 
 ### License
-
 [MIT](http://opensource.org/licenses/MIT)
 Copyright (c) 2021 Riger Wu
