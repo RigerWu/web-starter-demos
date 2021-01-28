@@ -1,4 +1,4 @@
-package com.rigerwu.web.log.entity;
+package com.rigerwu.web.rabbitmq.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

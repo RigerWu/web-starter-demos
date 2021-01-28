@@ -1,4 +1,4 @@
-package com.rigerwu.web.log.constants;
+package com.rigerwu.web.rabbitmq.constants;
 
 /**
  * created by riger on 2021/1/25

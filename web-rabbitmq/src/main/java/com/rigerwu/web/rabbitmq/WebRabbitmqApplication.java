@@ -1,4 +1,4 @@
-package com.rigerwu.web.log;
+package com.rigerwu.web.rabbitmq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

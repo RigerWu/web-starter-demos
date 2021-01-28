@@ -1,9 +1,9 @@
-package com.rigerwu.web.log.service;
+package com.rigerwu.web.rabbitmq.service;
 
 import cn.hutool.json.JSONUtil;
 import com.rabbitmq.client.Channel;
-import com.rigerwu.web.log.constants.MQConsts;
-import com.rigerwu.web.log.entity.MsgBean;
+import com.rigerwu.web.rabbitmq.constants.MQConsts;
+import com.rigerwu.web.rabbitmq.entity.MsgBean;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;

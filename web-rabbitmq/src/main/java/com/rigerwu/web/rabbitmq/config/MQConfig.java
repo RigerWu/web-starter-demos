@@ -1,7 +1,7 @@
-package com.rigerwu.web.log.config;
+package com.rigerwu.web.rabbitmq.config;
 
 import cn.hutool.core.map.MapUtil;
-import com.rigerwu.web.log.constants.MQConsts;
+import com.rigerwu.web.rabbitmq.constants.MQConsts;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

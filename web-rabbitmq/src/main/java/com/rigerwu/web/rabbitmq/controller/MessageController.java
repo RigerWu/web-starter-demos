@@ -1,8 +1,8 @@
-package com.rigerwu.web.log.controller;
+package com.rigerwu.web.rabbitmq.controller;
 
 import cn.hutool.core.thread.ThreadUtil;
-import com.rigerwu.web.log.constants.MQConsts;
-import com.rigerwu.web.log.entity.MsgBean;
+import com.rigerwu.web.rabbitmq.constants.MQConsts;
+import com.rigerwu.web.rabbitmq.entity.MsgBean;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
