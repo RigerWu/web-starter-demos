@@ -23,6 +23,7 @@
         <module>web-rabbitmq</module>
         <module>web-dubbo</module>
         <module>web-admin</module>
+        <module>web-swagger</module>
     </modules>
 
     <name>web-starter-demos</name>
