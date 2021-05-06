@@ -1,0 +1,9 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: cloud-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
