@@ -8,9 +8,9 @@
     <dubbo:application name="dubbo-provider"  />
 
     <!-- 使用multicast广播注册中心暴露发现服务地址 -->
-    <dubbo:registry address="zookeeper://localtest.com:2181" />
+    <dubbo:registry address="nacos://localhost:8848" />
     <!--  配置中心  -->
-    <dubbo:config-center address="zookeeper://localtest.com:2181"/>
+    <dubbo:config-center address="nacos://localhost:8848"/>
 
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
     <dubbo:reference id="demoService" interface="com.rigerwu.dubbo.api.DemoService" />

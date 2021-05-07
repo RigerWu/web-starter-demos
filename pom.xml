@@ -25,6 +25,7 @@
         <module>web-admin</module>
         <module>web-swagger</module>
         <module>web-cache-redis</module>
+        <module>web-mybatis-plus</module>
     </modules>
 
     <name>web-starter-demos</name>
