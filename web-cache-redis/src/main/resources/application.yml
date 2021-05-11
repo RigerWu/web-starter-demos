@@ -1,6 +1,6 @@
 spring:
   redis:
-    host: localhost
+    host: 192.168.60.16
     # 连接超时时间（记得添加单位，Duration）
     timeout: 10000ms
     lettuce:
@@ -13,7 +13,16 @@ spring:
         max-idle: 8
         # 连接池中的最小空闲连接 默认 0
         min-idle: 0
+    sentinel:
+      master: mymaster
+      nodes:
+        - 10.16.61.21:26379
+        - 10.16.61.22:26379
+        - 10.16.61.23:26379
   cache:
     couchbase:
       # 默认超时时间
       expiration: "10m"
+logging:
+  level:
+    root: info
