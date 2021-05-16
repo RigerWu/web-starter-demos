@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 /**
  * created by Riger on 2021/5/6
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.rigerwu.cloud"})
 @EnableDiscoveryClient
 public class CloudProviderApplication {
     public static void main(String[] args){

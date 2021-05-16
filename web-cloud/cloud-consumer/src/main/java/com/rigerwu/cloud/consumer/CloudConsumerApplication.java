@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 /**
  * created by Riger on 2021/5/6
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.rigerwu.cloud"})
 @EnableDiscoveryClient
 @EnableFeignClients
 public class CloudConsumerApplication {
