@@ -3,6 +3,7 @@ package com.rigerwu.cloud.provider.controller;
 import com.rigerwu.cloud.common.dto.ComplexDataDTO;
 import com.rigerwu.cloud.common.dto.SimpleDataDTO;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -13,10 +14,13 @@ import org.springframework.web.bind.annotation.*;
 @Slf4j
 public class ProviderController {
 
+    @Value("${server.port}")
+    String port;
+
     @GetMapping("/simple")
     public SimpleDataDTO simple() {
         SimpleDataDTO simpleDataDTO = new SimpleDataDTO();
-        simpleDataDTO.setData("This is a simple string from provider.");
+        simpleDataDTO.setData("This is a simple string from provider: "+ port);
         return simpleDataDTO;
     }
 
